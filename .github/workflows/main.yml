@@ -74,5 +74,7 @@ jobs:
          daemon_off: false
          dockerfile: ./Dockerfile
          context: ./
+        env:
+          AWS_REGION: us-east-1
 
   
